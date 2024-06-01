@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   width: 1280px;
+   height: 72px;
+   margin: 0 auto;
+   align-items: center;
+}
+.logo img{
+    height: 60px;
+    width: 100px;
+   margin-left: 40px;
+   margin-top: 20px;
+}
+   nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    font-size: 20px;
+   }
+   nav button{
+margin-right: 40px;
+   }
+   button{
+    all: unset;
+    
+    padding: 8px 17px;
+    background-color: red;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+   
+   }
+ 
+
+
+  
+   .brandi img{
+    height: 70px;
+    width: 70px;
+   }
+   /*hero*/
+   .herocontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+   .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 72px);
+   }
+   .container{
+    margin: 0 auto;
+    max-width: 1280px;
+  
+   }
+   .main h1{
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 102px;
+    margin-top: 1vw;
+
+   }
+   .main p{
+    max-width: 400px;
+    font-weight: 600;
+   }
+   .herobtns{
+    display: flex;
+    gap: 40px;
+    height: 32px;
+   }
+   .secbtn{
+    background: transparent;
+    color: black;
+    border: 1px solid grey;
+   }
+   .shopping  {
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 8px;
+   }
+   .brandi {
+    display: flex;
+    gap: 16px;
+   }
+   .brandi img{
+    height: 30px;
+    width: 40px;
+
+   }
+ 
